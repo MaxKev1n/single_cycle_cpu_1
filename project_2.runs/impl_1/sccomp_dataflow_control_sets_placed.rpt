@@ -1,0 +1,111 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Wed Apr 21 18:15:43 2021
+| Host         : DESKTOP-LC1JA53 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file sccomp_dataflow_control_sets_placed.rpt
+| Design       : sccomp_dataflow
+| Device       : xc7a200t
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    33 |
+|    Minimum number of control sets                        |    33 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |     0 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    33 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    33 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |              32 |           22 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             992 |          383 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+---------------------+------------------+------------------+----------------+
+|   Clock Signal   |    Enable Signal    | Set/Reset Signal | Slice Load Count | Bel Load Count |
++------------------+---------------------+------------------+------------------+----------------+
+|  clock_IBUF_BUFG |                     | s/rf/resetn      |               22 |             32 |
+|  clock_IBUF_BUFG | s/ip/E[0]           | s/rf/resetn      |               13 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_26[0] | s/rf/resetn      |                9 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_22[0] | s/rf/resetn      |               14 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_7[0]  | s/rf/resetn      |               10 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_29[0] | s/rf/resetn      |               21 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_4[0]  | s/rf/resetn      |                9 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_0[0]  | s/rf/resetn      |               11 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_24[0] | s/rf/resetn      |               15 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_27[0] | s/rf/resetn      |               10 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_23[0] | s/rf/resetn      |               11 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_5[0]  | s/rf/resetn      |               15 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_19[0] | s/rf/resetn      |                9 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_2[0]  | s/rf/resetn      |                7 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_25[0] | s/rf/resetn      |               19 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_3[0]  | s/rf/resetn      |               10 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_15[0] | s/rf/resetn      |               11 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_18[0] | s/rf/resetn      |               25 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_8[0]  | s/rf/resetn      |                9 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_9[0]  | s/rf/resetn      |                6 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_12[0] | s/rf/resetn      |               11 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_11[0] | s/rf/resetn      |               15 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_21[0] | s/rf/resetn      |               13 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_13[0] | s/rf/resetn      |               12 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_1[0]  | s/rf/resetn      |               10 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_16[0] | s/rf/resetn      |                9 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_20[0] | s/rf/resetn      |                7 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_17[0] | s/rf/resetn      |               20 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_10[0] | s/rf/resetn      |               17 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_28[0] | s/rf/resetn      |               15 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_6[0]  | s/rf/resetn      |                8 |             32 |
+|  clock_IBUF_BUFG | s/ip/q_reg[6]_14[0] | s/rf/resetn      |               12 |             32 |
+|  clka_IBUF_BUFG  | s/ip/we             |                  |                8 |             32 |
++------------------+---------------------+------------------+------------------+----------------+
+
+

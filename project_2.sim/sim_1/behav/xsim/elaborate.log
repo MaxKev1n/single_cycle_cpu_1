@@ -1,0 +1,35 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 5b0ca305d9f844d392cc12eb63c02924 --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_13 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sccu_dataflow
+Compiling module xil_defaultlib.dffe32
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.g_p
+Compiling module xil_defaultlib.cla_2
+Compiling module xil_defaultlib.cla_4
+Compiling module xil_defaultlib.cla_8
+Compiling module xil_defaultlib.cla_16
+Compiling module xil_defaultlib.cla_32
+Compiling module xil_defaultlib.cla32
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.mux2x5
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.addsub32
+Compiling module xil_defaultlib.shift
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.sccpu_dataflow
+Compiling module xil_defaultlib.scinstmem
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.scdatamem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

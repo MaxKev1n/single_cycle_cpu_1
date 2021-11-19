@@ -1,0 +1,27 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+E:/Vivado workplace/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sim_1/new/tb.v,1618900768,verilog,,,,tb,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/ip/scdatamem/sim/scdatamem.v,1618999480,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/add.v,,scdatamem,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/add.v,1617596368,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/addsub32.v,,add,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/addsub32.v,1618159936,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/alu.v,,addsub32,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/alu.v,1618159924,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/cla32.v,,alu,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/cla32.v,1619270528,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/cla_16.v,,cla32,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/cla_16.v,1618159954,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/cla_2.v,,cla_16,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/cla_2.v,1618900437,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/cla_32.v,,cla_2,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/cla_32.v,1618900521,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/cla_4.v,,cla_32,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/cla_4.v,1618900458,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/cla_8.v,,cla_4,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/cla_8.v,1618900480,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/dffe32.v,,cla_8,,,,,,,,
+,,,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/g_p.v,,dffe32,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/g_p.v,1618900416,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/mux2x32.v,,g_p,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/mux2x32.v,1618900284,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/mux2x5.v,,mux2x32,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/mux2x5.v,1618900259,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/mux4x32.v,,mux2x5,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/mux4x32.v,1618900231,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/regfile.v,,mux4x32,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/regfile.v,1618900924,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/sccomp_dataflow.v,,regfile,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/sccomp_dataflow.v,1618900175,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/sccpu_dataflow.v,,sccomp_dataflow,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/sccpu_dataflow.v,1618900087,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/sccu_dataflow.v,,sccpu_dataflow,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/sccu_dataflow.v,1618900056,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/scinstmem.v,,sccu_dataflow,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/scinstmem.v,1618899955,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/shift.v,,scinstmem,,,,,,,,
+E:/Vivado workplace/project_2/project_2.srcs/sources_1/new/shift.v,1618899902,verilog,,E:/Vivado workplace/project_2/project_2.srcs/sim_1/new/tb.v,,shift,,,,,,,,

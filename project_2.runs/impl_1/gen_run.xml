@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tfbg676-2" LaunchTime="1619000106">
+  <File Type="BITSTR-BMM" Name="sccomp_dataflow_bd.bmm"/>
+  <File Type="ROUTE-PWR" Name="sccomp_dataflow_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="sccomp_dataflow.tcl"/>
+  <File Type="OPT-DCP" Name="sccomp_dataflow_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="sccomp_dataflow_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="sccomp_dataflow_reports.tcl"/>
+  <File Type="OPT-DRC" Name="sccomp_dataflow_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="sccomp_dataflow.hwdef"/>
+  <File Type="PWROPT-DCP" Name="sccomp_dataflow_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="sccomp_dataflow_placed.dcp"/>
+  <File Type="PLACE-IO" Name="sccomp_dataflow_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="sccomp_dataflow_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="sccomp_dataflow_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="sccomp_dataflow_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="sccomp_dataflow_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="sccomp_dataflow_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="sccomp_dataflow.bin"/>
+  <File Type="PHYSOPT-DCP" Name="sccomp_dataflow_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="sccomp_dataflow.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="sccomp_dataflow_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="sccomp_dataflow_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="sccomp_dataflow_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="sccomp_dataflow_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="sccomp_dataflow_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="sccomp_dataflow.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="sccomp_dataflow_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="sccomp_dataflow.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="sccomp_dataflow_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="sccomp_dataflow_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="sccomp_dataflow.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="sccomp_dataflow_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="sccomp_dataflow_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="sccomp_dataflow_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="sccomp_dataflow_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="sccomp_dataflow_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="sccomp_dataflow_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="sccomp_dataflow_timing_summary_routed.rpx"/>
+  <File Type="RDI-RDI" Name="sccomp_dataflow.vdi"/>
+  <File Type="ROUTE-CLK" Name="sccomp_dataflow_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="sccomp_dataflow_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="sccomp_dataflow_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="sccomp_dataflow_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="sccomp_dataflow_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="sccomp_dataflow_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="sccomp_dataflow.bit"/>
+  <File Type="BITSTR-RBT" Name="sccomp_dataflow.rbt"/>
+  <File Type="BITSTR-NKY" Name="sccomp_dataflow.nky"/>
+  <File Type="PDI-FILE" Name="sccomp_dataflow.pdi"/>
+  <File Type="RCFI_FILE" Name="sccomp_dataflow.rcfi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="CFI_FILE" Name="sccomp_dataflow.cfi"/>
+  <File Type="RNPI_FILE" Name="sccomp_dataflow.rnpi"/>
+  <File Type="NPI_FILE" Name="sccomp_dataflow.npi"/>
+  <File Type="RBD_FILE" Name="sccomp_dataflow.rbd"/>
+  <File Type="BG-BGN" Name="sccomp_dataflow.bgn"/>
+  <File Type="BG-DRC" Name="sccomp_dataflow.drc"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/add.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/addsub32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/alu.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cla32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cla_16.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cla_2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cla_32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cla_4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cla_8.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dffe32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/g_p.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux2x32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux2x5.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux4x32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/regfile.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sccpu_dataflow.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sccu_dataflow.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/scinstmem.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/shift.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sccomp_dataflow.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dff32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/instmem.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/datamem.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="sccomp_dataflow"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PRUNDIR/tcl.tcl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="UsedInSteps" Val="impl_1;WRITE_BITSTREAM;TCL.PRE"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream" PreStepTclHook="$PRUNDIR/tcl.tcl"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="scdatamem"/>
+</GenRun>
